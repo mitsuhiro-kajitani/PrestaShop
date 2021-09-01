@@ -1,4 +1,4 @@
-FROM php:7.1-fpm-alpine
+FROM php:7-fpm-alpine
 ARG UID=1001
 
 RUN apk add --no-cache \
